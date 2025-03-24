@@ -1,0 +1,11 @@
+lista1al10 = [1..10]
+listaNumPar = [2,4..100]
+abecedario = ['a'..'z']
+abecedarioM = ['A'..'Z']
+lista0aX x = [0..x]
+listaXa0 x = [x..0]
+listaAaB a b= [a..b]
+añadirlist x = x : [1..15]
+añadirlist2 x = [1..15] + [x]
+obetnerElem n = last (take n [1..80])
+longitudlist = length [20..59]
